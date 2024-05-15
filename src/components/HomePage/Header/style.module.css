@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 24px 80px;
+}
+
+.logo_container {
+    width: 400px;
+}
+
+.logo_container img {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav ul {
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
