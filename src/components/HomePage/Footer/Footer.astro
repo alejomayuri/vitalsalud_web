@@ -1,0 +1,46 @@
+---
+import style from "./style.module.css"
+import TextIcon from "../../../ui/text/TextIcon.astro"
+---
+
+<footer class={style.footer}>
+    <div>
+        <div class={style.logo_container}>
+            <div>
+                <img src="/logoSmall.png" alt="logo">
+            </div>
+            <TextIcon width="383" height="52"/>
+        </div>
+        <div class={style.social_container}>
+            <p>REDES SOCIALES</p>
+            <div>
+                <div>
+                    <a href="#">
+                        <img src="/facebook.png" alt="facebook">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/instagram.png" alt="instagram">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/whatsapp.png" alt="twitter">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/mail.png" alt="whatsapp">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class={style.map_container}>
+        <p>MAPA</p>
+        <button>
+            <p>MAPA GOOGLE</p>
+        </button>
+    </div>
+</footer>

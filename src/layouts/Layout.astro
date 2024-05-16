@@ -12,7 +12,7 @@ const { title } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/logo.png" />
+		<link rel="icon" type="image/svg+xml" href="/logoSmall.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
@@ -21,6 +21,38 @@ const { title } = Astro.props;
 	</body>
 </html>
 <style is:global>
+	@font-face {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 100 900;
+		font-display: swap;
+		src: url('/fonts/Inter-Medium.ttf');
+	}
+
+	@font-face {
+		font-family: 'Kanit';
+		font-style: normal;
+		font-weight: 100 900;
+		font-display: swap;
+		src: url('/fonts/Kanit-Light.ttf');
+	}
+
+	@font-face {
+		font-family: 'KanitBold';
+		font-style: normal;
+		font-weight: 100 900;
+		font-display: swap;
+		src: url('/fonts/Kanit-SemiBold.ttf');
+	}
+
+	@font-face {
+		font-family: 'Katibeh';
+		font-style: normal;
+		font-weight: 100 900;
+		font-display: swap;
+		src: url('/fonts/Katibeh-Regular.ttf');
+	}
+
 	body {
 		font-family: Arial, sans-serif;
 		margin: 0;

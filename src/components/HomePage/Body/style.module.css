@@ -12,22 +12,30 @@
   color: #434BB0;
   margin: 0;
   text-align: center;
+  font-family: 'Kanit', sans-serif;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .title > h1 {
-    font-size: 64px;
+    font-size: 100px;
     font-weight: 600;
     color: #434BB0;
     text-align: center;
     margin: 10px 0 20px 0;
+    margin-top: -35px;
+    font-family: 'Katibeh', sans-serif;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .programa > h2 {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 600;
     color: #434BB0;
     text-align: center;
     margin: 40px 0 10px 0;
+    font-family: 'Katibeh', sans-serif;
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 0px;
 }
 
 .programa > ul {
@@ -42,7 +50,8 @@
 .programa > ul > li {
     color: #434BB0;
     font-size: 24px;
-    margin: 6px 0;
+    margin: 2px 0;
+    font-family: 'Kanit', sans-serif;
 }
 
 .main_container__footer {margin-top: 40px;}
@@ -79,6 +88,7 @@
     font-weight: 600;
     color: #434BB0;
     margin: 0;
+    font-family: 'KanitBold', sans-serif;
 }
 
 .footer {
@@ -90,8 +100,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 40px 0;
-
+    padding: 40px 0 20px 0;
 }
 
 .footer > div {
@@ -103,28 +112,39 @@
 }
 
 .footer > div > h2 {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 600;
     color: #fff;
     margin: 0;
+    font-family: 'KanitBold', sans-serif;
+    letter-spacing: 2px;
 }
 
 .footer > div:first-of-type {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .footer > div:first-of-type > h2 {
-    font-size: 36px;
+    font-size: 72px;
     font-weight: 600;
     color: #fff;
     margin: 0;
-
+    font-family: 'Katibeh', sans-serif;
+    margin-top: -20px;
+    letter-spacing: 0px;
 }
 
 .footer span {
     width: 50px;
-    height: 6px;
+    height: 3px;
     background-color: #fff;
     display: block;
+}
+
+.footer p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    margin-top: 0;
 }
