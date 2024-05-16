@@ -5,7 +5,10 @@
     justify-content: space-between;
     padding: 40px 80px;
     border-top: solid 2px #fff;
+}
 
+.textIcon_desktop {
+    display: block;
 }
 
 .logo_container {
@@ -83,4 +86,36 @@
     width: 130px;
     font-family: 'KanitBold', sans-serif;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .logo_container {
+        justify-content: center;
+    }
+
+    .textIcon_desktop {
+        display: none;
+    }
+    
+    .textIcon_mobile svg {
+        display: flex;
+    }
+
+    .social_container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .map_container button {
+        width: 270px;
+        height: 100px;
+    }
+
+    .map_container button > p {
+        font-size: 22px;
+    }
 }
