@@ -155,7 +155,7 @@
 @supports (-webkit-backdrop-filter: none) {
     /* Estilos específicos para Safari */
     .title > h1, .programa > h2 {
-        margin-top: 45px;
+        margin-top: 90px;
     }
   }
   
