@@ -22,7 +22,8 @@
     color: #434BB0;
     text-align: center;
     margin: 10px 0 20px 0;
-    margin-top: -35px;
+    height: 80px;
+    line-height: 65px;
     font-family: 'Katibeh', sans-serif;
     text-shadow: 2px 2px 2px #000;
 }
@@ -36,6 +37,8 @@
     font-family: 'Katibeh', sans-serif;
     text-shadow: 1px 1px 1px #000;
     margin-top: 0px;
+    height: 80px;
+    line-height: 65px;
 }
 
 .programa > ul {
