@@ -152,6 +152,14 @@
     margin-top: 0;
 }
 
+@supports (-webkit-backdrop-filter: none) {
+    /* Estilos específicos para Safari */
+    .title > h1, .programa > h2 {
+        margin-top: 45px;
+    }
+  }
+  
+
 @media screen and (max-width: 768px) {
     .main_container {
         padding: 0px 8px;
