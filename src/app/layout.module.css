@@ -93,6 +93,23 @@
     color: #fff;
     font-size: 32px;
     font-weight: 600;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.svgsContainer {
+    display: flex;
+    gap: 12px;
+}
+
+.svgContainer {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1200px) {

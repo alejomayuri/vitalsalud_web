@@ -10,6 +10,7 @@ import FacebookFooter from "./ui/icons/facebook_f";
 import InstagramFooter from "./ui/icons/instagram_f";
 import WhatsAppFooter from "./ui/icons/whatsapp_f";
 import MailFooter from "./ui/icons/mail_f";
+import TiktokFooter from "./ui/icons/tiktok";
 import Pin from "./ui/icons/pin";
 import { kanit } from "./ui/fonts";
 import Menu from "./ui/icons/menu";
@@ -82,16 +83,19 @@ export default function RootLayout({ children }) {
               </Link>
               <div>
                 <p className={kanit.className}>REDES SOCIALES</p>
-                <Link href="https://www.facebook.com/profile.php?id=61558309880308&amp;mibextid=LQQJ4d"><FacebookFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></Link>
-                <Link href="https://www.instagram.com/vital_salud_center_?igsh=ZWdlbjljcmNvbDM1"><InstagramFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></Link>
-                <Link href="https://wa.me/938571905?text=Hola%20quiero%20más%20información"><WhatsAppFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></Link>
-                <Link href="mailto:vitalsalud.center24@gmail.com?subject=Consulta"><MailFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></Link>
+                <div className={style.svgsContainer}>
+                  <Link target="_blank" href="https://www.facebook.com/profile.php?id=61558309880308&amp;mibextid=LQQJ4d"><div className={style.svgContainer}><FacebookFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
+                  <Link target="_blank" href="https://www.instagram.com/vital_salud_center_?igsh=ZWdlbjljcmNvbDM1"><div className={style.svgContainer}><InstagramFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
+                  <Link target="_blank" href="https://wa.me/952893332?text=Hola%20quiero%20más%20información"><div className={style.svgContainer}><WhatsAppFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
+                  <Link target="_blank" href="mailto:vitalsaludcenter2025@gmail.com?subject=Consulta"><div className={style.svgContainer}><MailFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
+                  <Link target="_blank" href="https://www.tiktok.com/@vitalsalud.center"><div className={style.svgContainer}><TiktokFooter width={deviceWidth  > 796 ? 58 : 20} height={deviceWidth  > 796 ? 58 : 20}/></div></Link>
+                </div>
               </div>
             </div>
             <div className={style.bottomFooter}>
               <Pin className={style.logo_l} width={51} height={67}/>
               <Pin className={style.logo_m} width={25} height={33}/>
-              <p>Av. Petit Thouars 3547, San Isidro</p>
+              <p>Av. Petit Thouars 3549, San Isidro, Lima, Perú</p>
             </div>
           </div>
         </footer>

@@ -15,11 +15,12 @@ export default function Nosotros() {
             <ul>
                 <li className={kanit.className}>
                     <Phone className={style.image} width={50} height={50} />
-                    <p>938 571 905</p>
+                    {/* <p>938 571 905</p> */}
+                    <p>952 893 332</p>
                 </li>
                 <li className={kanit.className}>
                     <Mail className={style.image} width={50} />
-                    <p>vitalsalud.center24@gmail.com</p>
+                    <p>vitalsaludcenter2025@gmail.com</p>
                 </li>
                 <li className={kanit.className}>
                     <p>¡O escríbenos a nuestras redes sociales!</p>
