@@ -16,7 +16,7 @@ export default function Nosotros() {
                 <li className={kanit.className}>
                     <Phone className={style.image} width={50} height={50} />
                     {/* <p>938 571 905</p> */}
-                    <p>952 893 332</p>
+                    <p>957 045 728</p>
                 </li>
                 <li className={kanit.className}>
                     <Mail className={style.image} width={50} />

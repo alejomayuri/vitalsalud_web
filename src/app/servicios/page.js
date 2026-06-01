@@ -12,32 +12,32 @@ export default function Nosotros() {
           <Image className={style.image} width={450} height={423} alt="main image" src="/servicios.png" />
         </div>
         <div className={style.text}>
-            <h2 className={katibeh.className}>Servicios</h2>
+            <h2 className={katibeh.className}>Servicios Médicos y Especialidades</h2>
             <div>
               <ul>
-                <li><Link href="/servicios/aparatologia-cosmetica">APARATOLOGÍA COSMÉTICA</Link></li>
                 <li><Link href="/servicios/biopsias">BIOPSIAS</Link></li>
                 <li><Link href="/servicios/cardiologia">CARDIOLOGÍA</Link></li>
                 <li><Link href="/servicios/chequeos-preventivos">CHEQUEOS PREVENTIVOS</Link></li>
-                <li><Link href="/servicios/cirugia-plastica">CIRUGÍA PLÁSTICA</Link></li>
-              </ul>
-              <ul>
-                <li><Link href="/servicios/laboratorio-clinico">EXAMENES DE LAB CLÍNICO</Link></li>
+                <li><Link href="#">EXAMENES DE LABORATORIO CLÍNICO</Link></li>
                 <li><Link href="/servicios/gastroenterologia">GASTROENTEROLOGÍA</Link></li>
-                <li><Link href="/servicios/ginecologia">GINECOLOGÍA</Link></li>
-                <li><Link href="/servicios/imagenes">IMÁGENES</Link></li>
-                <li><Link href="/servicios/inmunologia-y-alergia">INMULOGÍA Y ALERGIA</Link></li>
               </ul>
               <ul>
+                <li><Link href="/servicios/ginecologia">GINECOLOGÍA</Link></li>
+                <li><Link href="#">IMÁGENES MÉDICAS</Link></li>
+                <li><Link href="/servicios/inmunologia-y-alergia">INMULOGÍA Y ALERGIA</Link></li>
                 <li><Link href="/servicios/laboratorio-de-patologia">LABORATORIO DE PATOLOGÍA</Link></li>
                 <li><Link href="/servicios/medicina-general">MEDICINA GENERAL</Link></li>
-                <li><Link href="/servicios/mesoterapia-y-reflexologia">MESOTERAPIA Y REFLEXOLOGÍA</Link></li>
-                <li><Link href="/servicios/oncologia">ONCOLOGÍA</Link></li>
-                <li><Link href="/servicios/para-ellos">PARA EL</Link></li>
               </ul>
               <ul>
-                <li><Link href="/servicios/para-ellas">PARA ELLAS</Link></li>
+                <li><Link href="/servicios/oncologia">ONCOLOGÍA</Link></li>
                 <li><Link href="#">TEST DE ALIENTO</Link></li>
+                <li><Link href="#">VITAMINAS Y SUPLEMENTACIÓN</Link></li>
+                <li><Link href="#">MEDICINA ENERGÉTICA</Link></li>
+                <li><Link href="#">TEST MOLECULAR DE VPH</Link></li>
+              </ul>
+              <ul>
+                <li><Link href="#">CARNET DE SANIDAD </Link></li>
+                <li><Link href="#">SALUD OCUPACIONAL</Link></li>
                 <li><Link href="/servicios/topico-y-farmacia">TÓPICO Y FARMACIA</Link></li>
               </ul>
             </div>

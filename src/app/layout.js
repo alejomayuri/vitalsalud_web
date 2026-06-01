@@ -85,8 +85,8 @@ export default function RootLayout({ children }) {
                 <p className={kanit.className}>REDES SOCIALES</p>
                 <div className={style.svgsContainer}>
                   <Link target="_blank" href="https://www.facebook.com/profile.php?id=61558309880308&amp;mibextid=LQQJ4d"><div className={style.svgContainer}><FacebookFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
-                  <Link target="_blank" href="https://www.instagram.com/vital_salud_center_?igsh=ZWdlbjljcmNvbDM1"><div className={style.svgContainer}><InstagramFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
-                  <Link target="_blank" href="https://wa.me/952893332?text=Hola%20quiero%20más%20información"><div className={style.svgContainer}><WhatsAppFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
+                  <Link target="_blank" href="https://www.instagram.com/vital_surco.596?igsh=ZWdlbjljcmNvbDM1"><div className={style.svgContainer}><InstagramFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
+                  <Link target="_blank" href="https://wa.me/51957045728?text=Hola%20quiero%20más%20información"><div className={style.svgContainer}><WhatsAppFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
                   <Link target="_blank" href="mailto:vitalsaludcenter2025@gmail.com?subject=Consulta"><div className={style.svgContainer}><MailFooter width={deviceWidth  > 796 ? 58 : 30} height={deviceWidth  > 796 ? 58 : 30}/></div></Link>
                   <Link target="_blank" href="https://www.tiktok.com/@vitalsalud.center"><div className={style.svgContainer}><TiktokFooter width={deviceWidth  > 796 ? 58 : 20} height={deviceWidth  > 796 ? 58 : 20}/></div></Link>
                 </div>
@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
             <div className={style.bottomFooter}>
               <Pin className={style.logo_l} width={51} height={67}/>
               <Pin className={style.logo_m} width={25} height={33}/>
-              <p>Av. Petit Thouars 3549, San Isidro, Lima, Perú</p>
+              <p>Cayaltí 596, Santiago de Surco, Lima – Perú</p>
             </div>
           </div>
         </footer>
